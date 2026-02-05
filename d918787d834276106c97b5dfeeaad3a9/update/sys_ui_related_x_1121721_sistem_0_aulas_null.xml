@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1121721_sistem_0_aulas" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Aulas - Default view" name="x_1121721_sistem_0_aulas" related_list="NULL" sys_domain="global" view="Default view">d563d175834676106c97b5dfeeaad344</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1121721_sistem_0_presenca.aula</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-26 19:40:27</sys_created_on>
+            <sys_id>d163d175834676106c97b5dfeeaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-26 19:40:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Aulas - Default view</calculated_name>
+            <filter/>
+            <name>x_1121721_sistem_0_aulas</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-26 19:40:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d563d175834676106c97b5dfeeaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Aulas - Default view</sys_name>
+            <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+            <sys_update_name>sys_ui_related_x_1121721_sistem_0_aulas_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-26 19:40:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

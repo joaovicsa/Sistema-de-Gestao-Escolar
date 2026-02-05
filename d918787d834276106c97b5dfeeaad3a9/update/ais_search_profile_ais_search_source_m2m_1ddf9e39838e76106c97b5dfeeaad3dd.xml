@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="sistema-de-gestao-escolar Search Profile">e7cf9a39b08e7610c2376ecbdf6d008c</profile>
+        <search_source display_value="Aulas">99df9e39838e76106c97b5dfeeaad3d8</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 01:14:25</sys_created_on>
+        <sys_id>1ddf9e39838e76106c97b5dfeeaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sistema-de-gestao-escolar Search Profile.Aulas</sys_name>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_1ddf9e39838e76106c97b5dfeeaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 01:14:25</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

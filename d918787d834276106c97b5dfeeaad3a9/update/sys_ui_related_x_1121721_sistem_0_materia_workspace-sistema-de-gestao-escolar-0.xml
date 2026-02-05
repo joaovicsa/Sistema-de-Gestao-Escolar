@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1121721_sistem_0_materia" version="2" view="workspace-sistema-de-gestao-escolar-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Materia - Workspace Sistema de Gestao Escolar 0" name="x_1121721_sistem_0_materia" related_list="NULL" sys_domain="global" view="abcf9a394d8e761065400ffca272f081">22df9279838e76106c97b5dfeeaad317</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1121721_sistem_0_alunos.materia</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:30</sys_created_on>
+            <sys_id>22df9279838e76106c97b5dfeeaad319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:30</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Materia - Workspace Sistema de Gestao Escolar 0" name="x_1121721_sistem_0_materia" related_list="NULL" sys_domain="global" view="abcf9a394d8e761065400ffca272f081">22df9279838e76106c97b5dfeeaad317</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1121721_sistem_0_notas.materia</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:30</sys_created_on>
+            <sys_id>aedf9279838e76106c97b5dfeeaad319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:30</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Materia - Workspace Sistema de Gestao Escolar 0" name="x_1121721_sistem_0_materia" related_list="NULL" sys_domain="global" view="abcf9a394d8e761065400ffca272f081">22df9279838e76106c97b5dfeeaad317</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_1121721_sistem_0_aulas.materia</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:30</sys_created_on>
+            <sys_id>26df9279838e76106c97b5dfeeaad31a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:30</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Materia - Workspace Sistema de Gestao Escolar 0</calculated_name>
+            <filter/>
+            <name>x_1121721_sistem_0_materia</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22df9279838e76106c97b5dfeeaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Materia - Workspace Sistema de Gestao Escolar 0</sys_name>
+            <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+            <sys_update_name>sys_ui_related_x_1121721_sistem_0_materia_workspace-sistema-de-gestao-escolar-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Sistema de Gestao Escolar 0" name="workspace-sistema-de-gestao-escolar-0">abcf9a394d8e761065400ffca272f081</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

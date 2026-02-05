@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b36b7c35838276106c97b5dfeeaad351" label="Professores" max_length="40" name="x_1121721_sistem_0_professores" text_index="true" type="collection">
+        <element display="true" label="Nome" max_length="100" name="nome" type="string"/>
+        <element label="Email" max_length="80" name="email" type="string"/>
+        <element label="Materia" max_length="32" name="materia" read_only="true" reference="x_1121721_sistem_0_materia" type="reference"/>
+        <element label="Aula" max_length="32" name="aula" reference="x_1121721_sistem_0_aulas" type="reference"/>
+        <element default="True" label="Ativo" max_length="255" name="status" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Matricula" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="aula"/>
+        </index>
+        <index name="index2">
+            <element name="materia"/>
+        </index>
+    </element>
+</database>

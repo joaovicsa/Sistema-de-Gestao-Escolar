@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1121721_sistem_0_notas" version="2" view="workspace-sistema-de-gestao-escolar-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ano_letivo</element>
+            <list_id display_value="x_1121721_sistem_0_notas" element="NULL" name="x_1121721_sistem_0_notas" parent="NULL" relationship="NULL" sys_domain="global" view="abcf9a394d8e761065400ffca272f081">8fdf5679838e76106c97b5dfeeaad354</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:32</sys_created_on>
+            <sys_id>07df5679838e76106c97b5dfeeaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>materia</element>
+            <list_id display_value="x_1121721_sistem_0_notas" element="NULL" name="x_1121721_sistem_0_notas" parent="NULL" relationship="NULL" sys_domain="global" view="abcf9a394d8e761065400ffca272f081">8fdf5679838e76106c97b5dfeeaad354</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:32</sys_created_on>
+            <sys_id>8bdf5679838e76106c97b5dfeeaad362</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>avaliacao</element>
+            <list_id display_value="x_1121721_sistem_0_notas" element="NULL" name="x_1121721_sistem_0_notas" parent="NULL" relationship="NULL" sys_domain="global" view="abcf9a394d8e761065400ffca272f081">8fdf5679838e76106c97b5dfeeaad354</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:32</sys_created_on>
+            <sys_id>03df5679838e76106c97b5dfeeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>aluno</element>
+            <list_id display_value="x_1121721_sistem_0_notas" element="NULL" name="x_1121721_sistem_0_notas" parent="NULL" relationship="NULL" sys_domain="global" view="abcf9a394d8e761065400ffca272f081">8fdf5679838e76106c97b5dfeeaad354</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:32</sys_created_on>
+            <sys_id>87df5679838e76106c97b5dfeeaad363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1121721_sistem_0_notas</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-27 01:14:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fdf5679838e76106c97b5dfeeaad354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1121721_sistem_0_notas</sys_name>
+            <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+            <sys_update_name>sys_ui_list_x_1121721_sistem_0_notas_workspace-sistema-de-gestao-escolar-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-27 01:14:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Sistema de Gestao Escolar 0" name="workspace-sistema-de-gestao-escolar-0">abcf9a394d8e761065400ffca272f081</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

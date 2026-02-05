@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1121721_sistem_0_notas">x_1121721_sistem_0_notas</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>NOTA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 23:49:36</sys_created_on>
+        <sys_id>4b6c4631830e76106c97b5dfeeaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOTA</sys_name>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name>sys_number_4b6c4631830e76106c97b5dfeeaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 23:49:36</sys_updated_on>
+    </sys_number>
+</record_update>

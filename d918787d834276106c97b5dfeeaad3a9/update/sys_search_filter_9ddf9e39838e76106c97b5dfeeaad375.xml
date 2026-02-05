@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Materia">99df9e39838e76106c97b5dfeeaad359</ais_search_source>
+        <label>Materia</label>
+        <name>Materia</name>
+        <order>100</order>
+        <search_context_config display_value="Sistema de Gestao Escolar AI Search Configuration">a3cf9a39818e76101c36bc26b1074a83</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 01:14:24</sys_created_on>
+        <sys_id>9ddf9e39838e76106c97b5dfeeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Materia</sys_name>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name>sys_search_filter_9ddf9e39838e76106c97b5dfeeaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 01:14:24</sys_updated_on>
+    </sys_search_filter>
+</record_update>

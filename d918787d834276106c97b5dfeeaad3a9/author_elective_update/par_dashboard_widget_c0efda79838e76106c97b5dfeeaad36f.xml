@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0cefda79838e76106c97b5dfeeaad354</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_1121721_sistem_0_materia","fixedQuery":"","listTitle":"My Work","columns":"","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>18</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 01:14:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0efda79838e76106c97b5dfeeaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name>par_dashboard_widget_c0efda79838e76106c97b5dfeeaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 01:14:35</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</application>
+        <file_path/>
+        <instance_id>039fe7fbffb46a14c80bf8e4fc4fd955</instance_id>
+        <instance_name>dev329571</instance_name>
+        <name>par_dashboard_widget_c0efda79838e76106c97b5dfeeaad36f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0cefda79838e76106c97b5dfeeaad354</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"x_1121721_sistem_0_materia","fixedQuery":"","listTitle":"My Work","columns":"","query":"","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":true,"noDebounce":"","contextMenuActions":[]}</component_props><h>18</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-27 01:14:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c0efda79838e76106c97b5dfeeaad36f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package><sys_policy/><sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope><sys_update_name>par_dashboard_widget_c0efda79838e76106c97b5dfeeaad36f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-27 01:14:35</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>226266450</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1918787d834276106c97b5dfeeaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 01:14:35</sys_created_on>
+        <sys_id>48efda79838e76106c97b5dfeeaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b5d5f28110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 01:14:35</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>44efda79f08e7610a87702ede991d771</update_guid>
+        <update_guid_history>44efda79f08e7610a87702ede991d771:226266450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">00ef1e79838e76106c97b5dfeeaad3ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 01:14:36</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>ca140a73b1d343c497b09839846288c4</sys_id>
+        <sys_metadata>c0efda79838e76106c97b5dfeeaad36f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_scope_delete display_value="">1fcbda7c92f54b1084dec1ebe2b69e40</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_c0efda79838e76106c97b5dfeeaad36f</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_c0efda79838e76106c97b5dfeeaad36f">48efda79838e76106c97b5dfeeaad372</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 01:14:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

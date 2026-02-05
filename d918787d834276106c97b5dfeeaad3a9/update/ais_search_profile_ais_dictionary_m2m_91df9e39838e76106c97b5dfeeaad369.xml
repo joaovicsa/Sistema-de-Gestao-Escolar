@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1121721_sistem_0_sistema_de_gestao_escolar_search_profile_default_spell_check_dictionary">d5df9e39838e76106c97b5dfeeaad363</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="sistema-de-gestao-escolar Search Profile">e7cf9a39b08e7610c2376ecbdf6d008c</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 01:14:24</sys_created_on>
+        <sys_id>91df9e39838e76106c97b5dfeeaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1121721_sistem_0_sistema_de_gestao_escolar_search_profile_default_spell_check_dictionary.sistema-de-gestao-escolar Search Profile</sys_name>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_91df9e39838e76106c97b5dfeeaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 01:14:24</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

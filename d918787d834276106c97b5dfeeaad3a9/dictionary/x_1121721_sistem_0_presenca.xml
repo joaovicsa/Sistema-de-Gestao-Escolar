@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="750259b1834676106c97b5dfeeaad34c" label="Presenca" max_length="40" name="x_1121721_sistem_0_presenca" text_index="true" type="collection">
+        <element display="true" label="Aluno" mandatory="true" max_length="32" name="aluno" reference="x_1121721_sistem_0_alunos" type="reference"/>
+        <element label="Aula" mandatory="true" max_length="32" name="aula" reference="x_1121721_sistem_0_aulas" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Presente" sequence="0" value="Presente"/>
+                <element inactive_on_update="false" label="Ausente" sequence="1" value="Ausente"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="aluno"/>
+        </index>
+        <index name="index2">
+            <element name="aula"/>
+        </index>
+    </element>
+</database>

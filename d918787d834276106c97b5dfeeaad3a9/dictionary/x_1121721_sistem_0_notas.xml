@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fa6c4631830e76106c97b5dfeeaad35b" label="Notas" max_length="40" name="x_1121721_sistem_0_notas" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Avaliacao" max_length="40" name="avaliacao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Prova Final" sequence="2" value="prova_final"/>
+                <element inactive_on_update="false" label="Prova 2" sequence="1" value="prova_2"/>
+                <element inactive_on_update="false" label="Prova 1" sequence="0" value="prova_1"/>
+            </choice>
+        </element>
+        <element label="Pontuacao" max_length="38" name="pontuacao" type="decimal"/>
+        <element label="Materia" max_length="32" name="materia" reference="x_1121721_sistem_0_materia" type="reference"/>
+        <element label="Ano Letivo" max_length="40" name="ano_letivo" type="string"/>
+        <element label="Aluno" max_length="32" name="aluno" reference="x_1121721_sistem_0_alunos" type="reference"/>
+        <index name="index">
+            <element name="aluno"/>
+        </index>
+        <index name="index2">
+            <element name="materia"/>
+        </index>
+    </element>
+</database>

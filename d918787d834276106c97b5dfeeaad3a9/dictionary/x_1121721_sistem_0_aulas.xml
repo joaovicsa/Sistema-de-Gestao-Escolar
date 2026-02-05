@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bc9805fd83c276106c97b5dfeeaad3cc" label="Aulas" max_length="40" name="x_1121721_sistem_0_aulas" text_index="true" type="collection">
+        <element label="Professor" max_length="32" name="professor" reference="x_1121721_sistem_0_professores" type="reference"/>
+        <element choice="3" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Desmarcada" sequence="2" value="desmarcada"/>
+                <element inactive_on_update="false" label="Agendada" sequence="0" value="agendada"/>
+                <element inactive_on_update="false" label="Remarcada" sequence="3" value="remarcada"/>
+                <element inactive_on_update="false" label="Realizada" sequence="1" value="realizada"/>
+            </choice>
+        </element>
+        <element label="Aluno" max_length="32" name="aluno" reference="x_1121721_sistem_0_alunos" type="reference"/>
+        <element display="true" label="Conteudo" mandatory="true" max_length="100" name="conteudo" type="string"/>
+        <element label="Materia" mandatory="true" max_length="32" name="materia" reference="x_1121721_sistem_0_materia" type="reference"/>
+        <element label="Ultima Aula" mandatory="true" max_length="255" name="ultima_aula" type="glide_date_time"/>
+        <index name="index">
+            <element name="aluno"/>
+        </index>
+        <index name="index2">
+            <element name="materia"/>
+        </index>
+        <index name="index3">
+            <element name="professor"/>
+        </index>
+    </element>
+</database>

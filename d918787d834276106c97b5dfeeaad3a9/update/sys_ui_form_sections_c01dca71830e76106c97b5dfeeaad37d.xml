@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c01dca71830e76106c97b5dfeeaad37d" sys_domain="global" table="x_1121721_sistem_0_notas" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-26 23:52:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>041dca71830e76106c97b5dfeeaad383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1121721_sistem_0_notas" name="x_1121721_sistem_0_notas" sys_domain="global" view="Default view">c01dca71830e76106c97b5dfeeaad37d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1121721_sistem_0_notas" sys_domain="global" view="Default view">976cc6bd83ca76106c97b5dfeeaad3a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-26 23:52:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-26 23:52:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c1dca71830e76106c97b5dfeeaad384</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1121721_sistem_0_notas" name="x_1121721_sistem_0_notas" sys_domain="global" view="Default view">c01dca71830e76106c97b5dfeeaad37d</sys_ui_form>
+            <sys_ui_section caption="Alunos" display_value="Alunos" name="x_1121721_sistem_0_notas" sys_domain="global" view="Default view">881dca71830e76106c97b5dfeeaad37b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-26 23:52:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1121721_sistem_0_notas</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-26 23:52:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c01dca71830e76106c97b5dfeeaad37d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1121721_sistem_0_notas</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c01dca71830e76106c97b5dfeeaad37d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-26 23:52:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

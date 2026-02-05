@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Sistema de Gestao Escolar">ebcf9a39c38e7610993f7769056b068c</page>
+        <required_translations>[ {
+  "message" : "New Alunos",
+  "comment" : ""
+}, {
+  "message" : "New Aulas",
+  "comment" : ""
+}, {
+  "message" : "New Materia",
+  "comment" : ""
+}, {
+  "message" : "New Notas",
+  "comment" : ""
+}, {
+  "message" : "New Presenca",
+  "comment" : ""
+}, {
+  "message" : "New Professores",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-27 01:14:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>abcf9a39328e76103ef653980fa8287a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name>sys_ux_page_property_abcf9a39328e76103ef653980fa8287a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-27 01:14:24</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1121721_sistem_0.ebcf9a39c38e7610993f7769056b068c.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Materia"},"routeInfo":{"route":"record","fields":{"table":"x_1121721_sistem_0_materia","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1121721_sistem_0_materia","canCreate":true}}},{"label":{"translatable":true,"message":"New Aulas"},"routeInfo":{"route":"record","fields":{"table":"x_1121721_sistem_0_aulas","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1121721_sistem_0_aulas","canCreate":true}}},{"label":{"translatable":true,"message":"New Notas"},"routeInfo":{"route":"record","fields":{"table":"x_1121721_sistem_0_notas","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1121721_sistem_0_notas","canCreate":true}}},{"label":{"translatable":true,"message":"New Presenca"},"routeInfo":{"route":"record","fields":{"table":"x_1121721_sistem_0_presenca","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1121721_sistem_0_presenca","canCreate":true}}},{"label":{"translatable":true,"message":"New Professores"},"routeInfo":{"route":"record","fields":{"table":"x_1121721_sistem_0_professores","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1121721_sistem_0_professores","canCreate":true}}},{"label":{"translatable":true,"message":"New Alunos"},"routeInfo":{"route":"record","fields":{"table":"x_1121721_sistem_0_alunos","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1121721_sistem_0_alunos","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=abcf9a39328e76103ef653980fa8287a"/>
+</record_update>

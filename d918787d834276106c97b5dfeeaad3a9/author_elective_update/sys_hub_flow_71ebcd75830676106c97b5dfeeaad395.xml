@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>51cbc6c97743011031e3b3c64b5a9907</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description>Distribuicao de Presencas</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>realizacao_de_aula</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Realizacao de Aula</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71ebcd75830676106c97b5dfeeaad395</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Realizacao de Aula</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name>sys_hub_flow_71ebcd75830676106c97b5dfeeaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:21:33</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_variable_value action="DELETE" query="document_key=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=71ebcd75830676106c97b5dfeeaad395^sys_idNOT IN35ebcd75830676106c97b5dfeeaad399"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>71ebcd75830676106c97b5dfeeaad395</id>
+        <name>Realizacao de Aula</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>35ebcd75830676106c97b5dfeeaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:07:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=35ebcd75830676106c97b5dfeeaad399"/>
+    <sys_hub_flow_input action="DELETE" query="model=71ebcd75830676106c97b5dfeeaad395^sys_idNOT IN35ebcd75830676106c97b5dfeeaad3a4,7debcd75830676106c97b5dfeeaad3af,b5ebcd75830676106c97b5dfeeaad3ab"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Realizacao de Aula">71ebcd75830676106c97b5dfeeaad395</model>
+        <model_id>71ebcd75830676106c97b5dfeeaad395</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>35ebcd75830676106c97b5dfeeaad3a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:17:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=35ebcd75830676106c97b5dfeeaad3a4"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Realizacao de Aula">71ebcd75830676106c97b5dfeeaad395</model>
+        <model_id>71ebcd75830676106c97b5dfeeaad395</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>7debcd75830676106c97b5dfeeaad3af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:07:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=7debcd75830676106c97b5dfeeaad3af"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Realizacao de Aula">71ebcd75830676106c97b5dfeeaad395</model>
+        <model_id>71ebcd75830676106c97b5dfeeaad395</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>b5ebcd75830676106c97b5dfeeaad3ab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:17:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=b5ebcd75830676106c97b5dfeeaad3ab"/>
+    <sys_hub_flow_output action="DELETE" query="model=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=71ebcd75830676106c97b5dfeeaad395^sys_idNOT INb9eb01b5830676106c97b5dfeeaad313"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Realizacao de Aula">71ebcd75830676106c97b5dfeeaad395</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>b9eb01b5830676106c97b5dfeeaad313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:21:33</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=71ebcd75830676106c97b5dfeeaad395^sys_idNOT INa41fc93d830676106c97b5dfeeaad3aa"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Update Multiple Records">9daf2a72c75100105312134c95c26073</action_type>
+        <action_type_parent display_value="Update Multiple Records">c40e2632c75100105312134c95c260f6</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Realizacao de Aula">71ebcd75830676106c97b5dfeeaad395</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id>0b95991e-bfcb-4e8b-8c6f-86b3c52627bb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:21:33</sys_created_on>
+        <sys_id>a41fc93d830676106c97b5dfeeaad3aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:21:33</sys_updated_on>
+        <ui_id>d912fb17-b630-4f3f-a184-da89295e0bf6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/91Y227jNhD9FUPPlktKFCXlLdg0QIFmAzTpvqSpMCKphIAsaXXJ5oL8e4e62JbtJI5ro8W+WeRw5szMOeLINy+WltaJ5UlIHPAd4XuUEEo8lzrUZSL0hMOJz6yplcFcoWUNcaqi9mFqPUDamMXHiKK979Co0lWt5hGJ5lCrUgMaSV0VKTx9620vFhviXqeyVJl1cnM7tQoo0SnuWScva1v1U6GiFGKV4vlrA2DytQOwK/jR4TeSMVHW1/JSGkB0aqnHWmVSYbwE0kpNrTlkEuq8fLJO6rLBhVKBvMzSp4XFvc5qdGgZ28dKP6P3gBi7RGFqQnV7i8eoL1S3LO5zLdRlUes861ZaYP1mnjbz7GuXhCmxSqBJ66HEuNJU6E8VBrIB0SNKru7zH38MAc911mbXb6a5gHTxBHVd6ripVWX60ehrrM7v21qgUjXHGNjwotDZXVSU+YNu/SLM+ewuxYdZkuY/EE+l77IZCJPTDIsHs3NcP2uXvwGSAt1eoBs8PO1Drjek0X9m+nujfjONZzFxAx4zO0lCZjNXUDtknNmxB0QqP/aS2LVe2xJH3xuTXFesvixRV1k0qESpi/oUgT2ovgKv014aMnyXXbBkk8gzqU1u1Yo0sC8wq2qom+qvhhAXWQ2pfgYJf5utq9OLX0+vzK9NpXzm6H5a+rKKeNdstx7eVoJeUKO1XlDOoQTFCPmPJNVhPJCiRrU8uqJGHRkpKnQJI5THdhyErs2YkDYID+wgACJcN4xjyT9U1IpgP9BW+C7bAmdJrESrVEatqFbVVZSqwsJDpw/Tkk0ZbbXZ8+5Rc/Rcq0nne7pzFoODc5NG9WZawxXUh+k2lqpxD6Ua7v0cstnox/Evo/XWjOQjaMAokaFNJQ1sRgHvIp4EeD/50uGxkIwFB5SPIknghYDEc5xN4hF/ybMqL+uo69WKeja1srcyWmKPprIdwA2HLw29J/HTW3h7WXRiGU9m7H1J9Cv/59HsoIIYteHoYhg1ZDyZBcILE1fYjNPQ3CPUxqsjsKngXPhS0SSJDygEeJ9rco1YLZ+WMmjXoBJbJrBJnU+e9x+vWqIMgtgB5HDwChFNrjuUW4APg9XgvteCdzAtuM7ntIBMvHlZoF9UbUuBe6jEtG6wfzb2sG6PnFw5QF9vF1r6sl9M+tmYjom5Jnb3U2pfZVa3c/YGwY76vbbg4fEnyyHSeKpUAcfJEmzqitBciwSnyjCxORE8hjgIuGT/+juNOz4ncQgoL2Ab8gJvKaUoqjIRyRw9J6BTdB+psszLFTaQzXdBG23/yRHf8r+c9y52xTscPsszM7w6fj0xgCd5NhkAf5xS/7KI8zxVkC3ZzQ/2tmA/x58aqx06ulCW7RgphftewJUDtsPwq4shJ+xYCWEjUdyEk5ASh+6tlNt/AHlBkyzuEwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=a41fc93d830676106c97b5dfeeaad3aa"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=71ebcd75830676106c97b5dfeeaad395^sys_idNOT IN983e8db9830676106c97b5dfeeaad3eb,dc3e8db9830676106c97b5dfeeaad3e6"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">dc3e8db9830676106c97b5dfeeaad3ea</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Realizacao de Aula">71ebcd75830676106c97b5dfeeaad395</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:17:43</sys_created_on>
+        <sys_id>983e8db9830676106c97b5dfeeaad3eb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:21:33</sys_updated_on>
+        <ui_id>8c624564-d746-4bcd-847f-2aad0fef9691</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YbW+jSAz+KyfUjy1H3tN8q9qL1NO1kS7ZfjkqNGFMMnsThoUhbTfKfz/PCwRIurvtZvvlIkUR2MZj+3nGHtg4IpdJLrOZuMoytoid0T+P5w6LlQyvN05MVuCMnCDIJJF5FgTOubMmPFfCje+sIc2YiH1n5Dst1/Odc98JxSrh8DyZf4ZQomajRBTM1Vm4Li70Q5/JmricxAt3KlMWL7SHs7XW+c52i3cryDKyeOfz22ZA03AJK2J8jLl4ugGVN6Sj8c3V9ex2cj+dXc0+TWtx+85tLGEBqc2PgnsWMeA0iEgIMjPGU6aWuSPJWAn1Yxvf952czV4S+IvMgavbkfor/PnKI/6lQGggYv5SWkSEZ1DqlyyWpaqUGs+lnDWcUohIzmWg8dp/mtciulapFioSSkQ1gDQVaWAoUhrKNN8ZrkhMiRTpa3GLlJqAtK5Vee454BAv5LJUdj31v8VfDXOs6w5YK/7Z6luPRy1+Vvf5ptrf2Wx/cfnb3y6/VwKgEPjG3nDPJGb+Q9V/UxmudNq/TXWnOX4xcvYpZl9yuKW7pAmN5oN5eHFJ+4OL7uWQXgyH1LsY0n7Yob1hNwLaALzOJNvkCpNQBLo0qmuWNo3GUtgChxXEMliRJEHmBEkq1qwKF7Ytd8FR5EaIRUA1GK4ph4uZEneH0QNJGZlrBJL3tJU45/wQq0U9vzds536vQagMMETOvhIV/1ikK2J48ud0co8mOFcoyxJOXh5O4+U0Xk7j5TReTuPlNF6OOF7CJeM0hVi/1zCKEwaF9v1GNd3Km03dGt+IsjBliVQMWqNeZ1kIkaAYwJ5H20t+ximaJCRFdxJSFNQT0C1KbwcERWkr/MHF7ATANQ8QHPWK2tgKq8F9J5xm9Dm7MfNaLYseWLmi5ijfC6QoUKG5NjWvIyCbzjQnnFHr3IFnCTEFWsZW7shSogg5QT6WAsVAsypyKGNf0XfXU3YRYCKhzby8DewRpEBLsBAmiaqfkUi1CaxS8HwV35vg1eHFtKKHXT2t5KZ+qkFFnuFCkKhkVHQ21Gi6FE9/F5GMWazztkouQsLLOyJxGsxzCZkBBuMPvuTKwKxrXQcmbEXO77DFTKwPJEtWLFjjShlGkyp35Wba212y4dDypX1Evnj/O8Y8NoAxc6gAxosGbdIj7d681Wl7LW/ebwHBi85g2AoH3csKcH8oItmRu0Ov9jXJAiiKJYoNr6p+JAiHHwfhcZGy27RanvrGLYGpHg1QXj8UoP6144DuvO89CDg/0HsOdQrVkWygECt3tDImW/tvgrr/NFvKa6Oxyd0ZPvz7WC1b8JfSgdcaDsKw0wfF316v15kPuh6hXY9SGlb4uwtvL17L27kQHEj8a4j7MbMqssU53H4K7YdPrYPMeVREMRzMDNgUQqY+EsyU7Lb4cq0UL4gZC6uiJ5H+q0i+k23/A0Cs7/IDFwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">d43e8db9830676106c97b5dfeeaad3e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Realizacao de Aula">71ebcd75830676106c97b5dfeeaad395</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:17:43</sys_created_on>
+        <sys_id>dc3e8db9830676106c97b5dfeeaad3e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:21:33</sys_updated_on>
+        <ui_id>0b95991e-bfcb-4e8b-8c6f-86b3c52627bb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_hub_flow_variable action="DELETE" query="model=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>39ebcd75830676106c97b5dfeeaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:07:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>3debcd75830676106c97b5dfeeaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:07:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:07:43</sys_created_on>
+        <sys_id>71ebcd75830676106c97b5dfeeaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:07:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=71ebcd75830676106c97b5dfeeaad395"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</application>
+        <file_path/>
+        <instance_id>039fe7fbffb46a14c80bf8e4fc4fd955</instance_id>
+        <instance_name>dev329571</instance_name>
+        <name>sys_hub_flow_71ebcd75830676106c97b5dfeeaad395</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27800&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from&gt;51cbc6c97743011031e3b3c64b5a9907&lt;/copied_from&gt;&lt;copied_from_name&gt;FlowTemplate: Record Trigger&lt;/copied_from_name&gt;&lt;description&gt;Distribuicao de Presencas&lt;/description&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority/&gt;&lt;generation_source/&gt;&lt;internal_name&gt;realizacao_de_aula&lt;/internal_name&gt;&lt;label_cache&gt;[]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Realizacao de Aula&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;71ebcd75830676106c97b5dfeeaad395&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Realizacao de Aula&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_71ebcd75830676106c97b5dfeeaad395&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:21:33&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=71ebcd75830676106c97b5dfeeaad395^sys_idNOT IN35ebcd75830676106c97b5dfeeaad399"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;71ebcd75830676106c97b5dfeeaad395&lt;/id&gt;&lt;name&gt;Realizacao de Aula&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;35ebcd75830676106c97b5dfeeaad399&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:07:43&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=35ebcd75830676106c97b5dfeeaad399"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=71ebcd75830676106c97b5dfeeaad395^sys_idNOT IN35ebcd75830676106c97b5dfeeaad3a4,7debcd75830676106c97b5dfeeaad3af,b5ebcd75830676106c97b5dfeeaad3ab"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Realizacao de Aula"&gt;71ebcd75830676106c97b5dfeeaad395&lt;/model&gt;&lt;model_id&gt;71ebcd75830676106c97b5dfeeaad395&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;35ebcd75830676106c97b5dfeeaad3a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:17:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=35ebcd75830676106c97b5dfeeaad3a4"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Realizacao de Aula"&gt;71ebcd75830676106c97b5dfeeaad395&lt;/model&gt;&lt;model_id&gt;71ebcd75830676106c97b5dfeeaad395&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;7debcd75830676106c97b5dfeeaad3af&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:07:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7debcd75830676106c97b5dfeeaad3af"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Realizacao de Aula"&gt;71ebcd75830676106c97b5dfeeaad395&lt;/model&gt;&lt;model_id&gt;71ebcd75830676106c97b5dfeeaad395&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b5ebcd75830676106c97b5dfeeaad3ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:17:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5ebcd75830676106c97b5dfeeaad3ab"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=71ebcd75830676106c97b5dfeeaad395^sys_idNOT INb9eb01b5830676106c97b5dfeeaad313"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Realizacao de Aula"&gt;71ebcd75830676106c97b5dfeeaad395&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b9eb01b5830676106c97b5dfeeaad313&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:21:33&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;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&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=71ebcd75830676106c97b5dfeeaad395^sys_idNOT INa41fc93d830676106c97b5dfeeaad3aa"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Update Multiple Records"&gt;9daf2a72c75100105312134c95c26073&lt;/action_type&gt;&lt;action_type_parent display_value="Update Multiple Records"&gt;c40e2632c75100105312134c95c260f6&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Realizacao de Aula"&gt;71ebcd75830676106c97b5dfeeaad395&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id&gt;0b95991e-bfcb-4e8b-8c6f-86b3c52627bb&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:21:33&lt;/sys_created_on&gt;&lt;sys_id&gt;a41fc93d830676106c97b5dfeeaad3aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:21:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;d912fb17-b630-4f3f-a184-da89295e0bf6&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/91Y227jNhD9FUPPlktKFCXlLdg0QIFmAzTpvqSpMCKphIAsaXXJ5oL8e4e62JbtJI5ro8W+WeRw5szMOeLINy+WltaJ5UlIHPAd4XuUEEo8lzrUZSL0hMOJz6yplcFcoWUNcaqi9mFqPUDamMXHiKK979Co0lWt5hGJ5lCrUgMaSV0VKTx9620vFhviXqeyVJl1cnM7tQoo0SnuWScva1v1U6GiFGKV4vlrA2DytQOwK/jR4TeSMVHW1/JSGkB0aqnHWmVSYbwE0kpNrTlkEuq8fLJO6rLBhVKBvMzSp4XFvc5qdGgZ28dKP6P3gBi7RGFqQnV7i8eoL1S3LO5zLdRlUes861ZaYP1mnjbz7GuXhCmxSqBJ66HEuNJU6E8VBrIB0SNKru7zH38MAc911mbXb6a5gHTxBHVd6ripVWX60ehrrM7v21qgUjXHGNjwotDZXVSU+YNu/SLM+ewuxYdZkuY/EE+l77IZCJPTDIsHs3NcP2uXvwGSAt1eoBs8PO1Drjek0X9m+nujfjONZzFxAx4zO0lCZjNXUDtknNmxB0QqP/aS2LVe2xJH3xuTXFesvixRV1k0qESpi/oUgT2ovgKv014aMnyXXbBkk8gzqU1u1Yo0sC8wq2qom+qvhhAXWQ2pfgYJf5utq9OLX0+vzK9NpXzm6H5a+rKKeNdstx7eVoJeUKO1XlDOoQTFCPmPJNVhPJCiRrU8uqJGHRkpKnQJI5THdhyErs2YkDYID+wgACJcN4xjyT9U1IpgP9BW+C7bAmdJrESrVEatqFbVVZSqwsJDpw/Tkk0ZbbXZ8+5Rc/Rcq0nne7pzFoODc5NG9WZawxXUh+k2lqpxD6Ua7v0cstnox/Evo/XWjOQjaMAokaFNJQ1sRgHvIp4EeD/50uGxkIwFB5SPIknghYDEc5xN4hF/ybMqL+uo69WKeja1srcyWmKPprIdwA2HLw29J/HTW3h7WXRiGU9m7H1J9Cv/59HsoIIYteHoYhg1ZDyZBcILE1fYjNPQ3CPUxqsjsKngXPhS0SSJDygEeJ9rco1YLZ+WMmjXoBJbJrBJnU+e9x+vWqIMgtgB5HDwChFNrjuUW4APg9XgvteCdzAtuM7ntIBMvHlZoF9UbUuBe6jEtG6wfzb2sG6PnFw5QF9vF1r6sl9M+tmYjom5Jnb3U2pfZVa3c/YGwY76vbbg4fEnyyHSeKpUAcfJEmzqitBciwSnyjCxORE8hjgIuGT/+juNOz4ncQgoL2Ab8gJvKaUoqjIRyRw9J6BTdB+psszLFTaQzXdBG23/yRHf8r+c9y52xTscPsszM7w6fj0xgCd5NhkAf5xS/7KI8zxVkC3ZzQ/2tmA/x58aqx06ulCW7RgphftewJUDtsPwq4shJ+xYCWEjUdyEk5ASh+6tlNt/AHlBkyzuEwAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=a41fc93d830676106c97b5dfeeaad3aa"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=71ebcd75830676106c97b5dfeeaad395^sys_idNOT IN983e8db9830676106c97b5dfeeaad3eb,dc3e8db9830676106c97b5dfeeaad3e6"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;dc3e8db9830676106c97b5dfeeaad3ea&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Realizacao de Aula"&gt;71ebcd75830676106c97b5dfeeaad395&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Top Level Catch"&gt;35d60003e6022010a5e40cdd1254dd23&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:17:43&lt;/sys_created_on&gt;&lt;sys_id&gt;983e8db9830676106c97b5dfeeaad3eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:21:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;8c624564-d746-4bcd-847f-2aad0fef9691&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1YbW+jSAz+KyfUjy1H3tN8q9qL1NO1kS7ZfjkqNGFMMnsThoUhbTfKfz/PCwRIurvtZvvlIkUR2MZj+3nGHtg4IpdJLrOZuMoytoid0T+P5w6LlQyvN05MVuCMnCDIJJF5FgTOubMmPFfCje+sIc2YiH1n5Dst1/Odc98JxSrh8DyZf4ZQomajRBTM1Vm4Li70Q5/JmricxAt3KlMWL7SHs7XW+c52i3cryDKyeOfz22ZA03AJK2J8jLl4ugGVN6Sj8c3V9ex2cj+dXc0+TWtx+85tLGEBqc2PgnsWMeA0iEgIMjPGU6aWuSPJWAn1Yxvf952czV4S+IvMgavbkfor/PnKI/6lQGggYv5SWkSEZ1DqlyyWpaqUGs+lnDWcUohIzmWg8dp/mtciulapFioSSkQ1gDQVaWAoUhrKNN8ZrkhMiRTpa3GLlJqAtK5Vee454BAv5LJUdj31v8VfDXOs6w5YK/7Z6luPRy1+Vvf5ptrf2Wx/cfnb3y6/VwKgEPjG3nDPJGb+Q9V/UxmudNq/TXWnOX4xcvYpZl9yuKW7pAmN5oN5eHFJ+4OL7uWQXgyH1LsY0n7Yob1hNwLaALzOJNvkCpNQBLo0qmuWNo3GUtgChxXEMliRJEHmBEkq1qwKF7Ytd8FR5EaIRUA1GK4ph4uZEneH0QNJGZlrBJL3tJU45/wQq0U9vzds536vQagMMETOvhIV/1ikK2J48ud0co8mOFcoyxJOXh5O4+U0Xk7j5TReTuPlNF6OOF7CJeM0hVi/1zCKEwaF9v1GNd3Km03dGt+IsjBliVQMWqNeZ1kIkaAYwJ5H20t+ximaJCRFdxJSFNQT0C1KbwcERWkr/MHF7ATANQ8QHPWK2tgKq8F9J5xm9Dm7MfNaLYseWLmi5ijfC6QoUKG5NjWvIyCbzjQnnFHr3IFnCTEFWsZW7shSogg5QT6WAsVAsypyKGNf0XfXU3YRYCKhzby8DewRpEBLsBAmiaqfkUi1CaxS8HwV35vg1eHFtKKHXT2t5KZ+qkFFnuFCkKhkVHQ21Gi6FE9/F5GMWazztkouQsLLOyJxGsxzCZkBBuMPvuTKwKxrXQcmbEXO77DFTKwPJEtWLFjjShlGkyp35Wba212y4dDypX1Evnj/O8Y8NoAxc6gAxosGbdIj7d681Wl7LW/ebwHBi85g2AoH3csKcH8oItmRu0Ov9jXJAiiKJYoNr6p+JAiHHwfhcZGy27RanvrGLYGpHg1QXj8UoP6144DuvO89CDg/0HsOdQrVkWygECt3tDImW/tvgrr/NFvKa6Oxyd0ZPvz7WC1b8JfSgdcaDsKw0wfF316v15kPuh6hXY9SGlb4uwtvL17L27kQHEj8a4j7MbMqssU53H4K7YdPrYPMeVREMRzMDNgUQqY+EsyU7Lb4cq0UL4gZC6uiJ5H+q0i+k23/A0Cs7/IDFwAA&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;d43e8db9830676106c97b5dfeeaad3e5&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Realizacao de Aula"&gt;71ebcd75830676106c97b5dfeeaad395&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Top Level Try"&gt;e9060aa2c3013010ace8b740ad40dd51&lt;/logic_definition&gt;&lt;order&gt;0&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:17:43&lt;/sys_created_on&gt;&lt;sys_id&gt;dc3e8db9830676106c97b5dfeeaad3e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:21:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;0b95991e-bfcb-4e8b-8c6f-86b3c52627bb&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;39ebcd75830676106c97b5dfeeaad3ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:07:43&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;3debcd75830676106c97b5dfeeaad3b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:07:43&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-12-26 19:07:43&lt;/sys_created_on&gt;&lt;sys_id&gt;71ebcd75830676106c97b5dfeeaad3aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sistema de Gestao Escolar"&gt;d918787d834276106c97b5dfeeaad3a9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-12-26 19:07:43&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=71ebcd75830676106c97b5dfeeaad395"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-263196235</payload_hash>
+        <record_name>Realizacao de Aula</record_name>
+        <reverted_from/>
+        <source>1918787d834276106c97b5dfeeaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:21:33</sys_created_on>
+        <sys_id>681fc93d830676106c97b5dfeeaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b5c1bf1d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:21:33</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>681fc93dba067610aed2618e87411dd2</update_guid>
+        <update_guid_history>681fc93dba067610aed2618e87411dd2:-263196235,103ecdb936067610583f38e8b7416b0d:293402611,aeeb41b5ee067610e9d01b2bab7bbdb8:180543571,4aeb01b5060676103c373e729a38665a:34671095,bdebcd750a067610b9185b33743fda9f:-1042658566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-26 19:56:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>66c030ec5c5d4a8e926c17a26a9caf44</sys_id>
+        <sys_metadata>71ebcd75830676106c97b5dfeeaad395</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Realizacao de Aula</sys_name>
+        <sys_package display_value="Sistema de Gestao Escolar" source="x_1121721_sistem_0">d918787d834276106c97b5dfeeaad3a9</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sistema de Gestao Escolar">d918787d834276106c97b5dfeeaad3a9</sys_scope>
+        <sys_scope_delete display_value="">1fcbda7c92f54b1084dec1ebe2b69e40</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_71ebcd75830676106c97b5dfeeaad395</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_71ebcd75830676106c97b5dfeeaad395">681fc93d830676106c97b5dfeeaad3d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-26 19:56:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

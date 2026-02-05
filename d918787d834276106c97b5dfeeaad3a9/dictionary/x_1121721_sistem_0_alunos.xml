@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0068f0bd834276106c97b5dfeeaad386" label="Alunos" max_length="40" name="x_1121721_sistem_0_alunos" text_index="true" type="collection">
+        <element label="Matricula" max_length="40" name="matricula" type="string"/>
+        <element default="True" hint="Ativo/Desativado" label="Ativo" mandatory="true" max_length="255" name="status" type="boolean"/>
+        <element label="Email" mandatory="true" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Matricula" max_length="40" name="number" type="string"/>
+        <element label="Materia" max_length="32" name="materia" reference="x_1121721_sistem_0_materia" reference_floats="true" type="reference"/>
+        <element display="true" label="Nome do Aluno" mandatory="true" max_length="80" name="nome" type="string"/>
+        <element label="Data de Nascimento" max_length="40" name="data_de_nascimento" type="glide_date"/>
+        <element label="Nota" max_length="38" name="nota" type="decimal"/>
+        <element label="Presencas" max_length="40" name="presencas" type="integer"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="materia"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
